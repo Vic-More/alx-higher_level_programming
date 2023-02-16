@@ -10,3 +10,4 @@ a script that creates the database hbtn_0d_usa and the table cities (in the data
 a script that lists all the cities of California that can be found in the database hbtn_0d_usa
 a script that lists all cities contained in the database hbtn_0d_usa
 a script that lists all shows contained in hbtn_0d_tvshows that have at least one genre linked
+a script that lists all shows contained in the database hbtn_0d_tvshows
