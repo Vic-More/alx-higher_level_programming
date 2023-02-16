@@ -18,3 +18,4 @@ a script that computes the score average of all records in the table second_tabl
 a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server
 a script that converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci) in your MySQL server
 a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending)
+a script that displays the top 3 of cities temperature during July and August ordered by temperature (descending)
