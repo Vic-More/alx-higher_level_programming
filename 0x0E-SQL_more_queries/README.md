@@ -14,3 +14,4 @@ a script that lists all shows contained in the database hbtn_0d_tvshows
 a script that lists all shows contained in hbtn_0d_tvshows without a genre linked
 a script that lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each
 a script that uses the hbtn_0d_tvshows database to lists all genres of the show Dexter
+a script that lists all Comedy shows in the database hbtn_0d_tvshows
