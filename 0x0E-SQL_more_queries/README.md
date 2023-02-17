@@ -19,3 +19,4 @@ a script that lists all shows, and all genres linked to that show, from the data
 a script that uses the hbtn_0d_tvshows database to list all genres not linked to the show Dexter
 a script that lists all shows without the genre Comedy in the database hbtn_0d_tvshows
 a script that lists all shows from hbtn_0d_tvshows_rate by their rating
+a script that lists all genres in the database hbtn_0d_tvshows_rate by their rating
