@@ -5,7 +5,7 @@ the database `hbtn_0e_4_usa`.
 """
 
 import MySQLdb
-from sys import
+from sys import argv
 
 if __name__ == '__main__':
     """
@@ -18,20 +18,20 @@ if __name__ == '__main__':
 
     with db.cursor() as cur:
         cur.execute("""
-        SELECT
-        cities.id, cities.name, states.name
-        FROM
-        cities
-        JOIN
-        states
-        ON
-        cities.state_id = states.id
-        ORDER BY
-        cities.id ASC
-        """)
+            SELECT
+                cities.id, cities.name, states.name
+            FROM
+               cities
+            JOIN
+               states
+            ON
+               cities.state_id = states.id
+            ORDER BY
+                cities.id ASC
+    """)
 
-        rows = cur.fetchall()
+    rows = cur.fetchall()
 
-        if rows is not None:
-            for row in rows:
-                print(row)
+  if rows is not None:
+      for row in rows:
+          print(row)
